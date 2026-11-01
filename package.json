@@ -1,0 +1,20 @@
+{
+  "name": "@hypereum/receipts-verify",
+  "version": "0.1.0",
+  "description": "Offline Class-1 verifier for Hivemind Receipts (.hvr).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "node --test test/smoke.test.mjs",
+    "test": "node --test test/smoke.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.7",
+    "@noble/post-quantum": "^0.5.4"
+  }
+}
